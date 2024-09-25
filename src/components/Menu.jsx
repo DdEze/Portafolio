@@ -25,5 +25,4 @@ const Menu = ({ isMenuOpen, handleMenu }) => {
     </div>
   );
 };
-
 export default Menu;

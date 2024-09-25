@@ -63,5 +63,4 @@ const SlideBar = () => {
     </div>
   );
 };
-
 export default SlideBar;
