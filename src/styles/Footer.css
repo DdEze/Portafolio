@@ -1,0 +1,52 @@
+.email{
+  padding: 1rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.footer.light {
+  background-color: white;
+  color: #333;
+}
+
+.footer.dark {
+  background-color: #121212;
+  color: #eee;
+}
+
+.footer-social img {
+  width: 30px;
+  margin: 0 0.5rem;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.footer-social img:hover {
+  filter: grayscale(0%);
+}
+
+.footer.dark .footer-social img[alt="GitHub"] {
+  background-color: #555555;
+  padding: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.footer.dark .footer-social img[alt="GitHub"]:hover {
+  background-color: white;
+}
+
+.footer.light .footer-social img[alt="GitHub"] {
+  background-color: #555555;
+  padding: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.footer.light .footer-social img[alt="GitHub"]:hover {
+  background-color: white;
+}
