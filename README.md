@@ -18,7 +18,7 @@ Este es un portafolio personal desarrollado con **React**, donde muestro informa
 
 ## Tecnologías Utilizadas
 
-- **React** (Vite o Create React App)
+- **React**
 - **React Router DOM** para navegación entre páginas
 - **CSS** modular para estilos
 - **FontAwesome** para íconos
