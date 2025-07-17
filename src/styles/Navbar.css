@@ -88,3 +88,43 @@ body.dark .download-cv:hover {
 .toggle-dark:hover {
   transform: scale(1.2);
 }
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: inherit;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: white;
+    width: 100%;
+    text-align: right;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  .navbar-links li {
+    margin-bottom: 1rem;
+  }
+
+  body.dark .navbar-links {
+    background-color: #1e1e1e;
+  }
+}
