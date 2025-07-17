@@ -8,18 +8,18 @@ const Projects = () => {
       title: "TaskSprint",
       description: "TaskSprint es una aplicación web para administrar tus tareas diarias. Con ella puedes crear, filtrar, marcar como completadas y reordenar tareas con drag & drop de manera sencilla y rápida. La persistencia se maneja con LocalStorage, por lo que tus tareas se mantienen entre sesiones.",
       link: "https://github.com/DdEze/TaskSprint",
-      images: ["https://imgur.com/oaHCATp", "https://imgur.com/RDbHISU", 
-               "https://imgur.com/ex2c1Az", "https://imgur.com/yl1AkM0",
-               "https://imgur.com/sDhFn5h", "https://imgur.com/P2lhwU0" ],
+      images: ["https://i.imgur.com/oaHCATp.png", "https://i.imgur.com/RDbHISU.png", 
+               "https://i.imgur.com/ex2c1Az.png", "https://i.imgur.com/yl1AkM0.png",
+               "https://i.imgur.com/sDhFn5h.png", "https://i.imgur.com/P2lhwU0.png" ],
     },
     {
       title: "WalletWise",
       description: "Aplicación web para administrar transacciones financieras y categorías, con funcionalidades para crear, editar, eliminar y filtrar datos. También permite gestionar el perfil de usuario (cambiar contraseña y eliminar cuenta). La interfaz está desarrollada en React y la base de datos utiliza MongoDB. Para la visualización de datos se usa Chart.js.",
       link: "https://github.com/DdEze/WalletWise",
-      images: ["https://imgur.com/DwysHBK", "https://imgur.com/V571ErF",
-               "https://imgur.com/TxI5ZSz", "https://imgur.com/AqMPvaR",
-               "https://imgur.com/Mb2n9i3", "https://imgur.com/NJqOT2Z",
-               "https://imgur.com/B0PmqSV"
+      images: ["https://i.imgur.com/DwysHBK.png", "https://i.imgur.com/V571ErF.png",
+               "https://i.imgur.com/TxI5ZSz.png", "https://i.imgur.com/AqMPvaR.png",
+               "https://i.imgur.com/Mb2n9i3.png", "https://i.imgur.com/NJqOT2Z.png",
+               "https://i.imgur.com/B0PmqSV.png"
       ],
     },
     {
@@ -27,12 +27,12 @@ const Projects = () => {
       description: "ChefNow es una aplicación web que permite a los usuarios explorar recetas de cocina, crear sus propias recetas y ver detalles de cada una, tanto desde una base de datos, como desde la API pública de TheMealDB.",
       link: "https://github.com/DdEze/ChefNow",
       images: [
-        "/ChefNow/ChefNow 1.png", "/ChefNow/ChefNow 2.png",
-        "/ChefNow/ChefNow 3.png", "/ChefNow/ChefNow 4.png",
-        "/ChefNow/ChefNow 5.png", "/ChefNow/ChefNow 6.png",
-        "/ChefNow/ChefNow 7.png", "/ChefNow/ChefNow 8.png",
-        "/ChefNow/ChefNow 9.png", "/ChefNow/ChefNow 10.png",
-        "/ChefNow/ChefNow 11.png"
+        "https://i.imgur.com/R5KbuEo.png", "https://i.imgur.com/8Bg8PCM.png",
+        "https://i.imgur.com/AhFT0jt.png", "https://i.imgur.com/IkmNbpj.png",
+        "https://i.imgur.com/UtGIBz8.png", "https://i.imgur.com/Vsg3wo6.png",
+        "https://i.imgur.com/laspkPv.png", "https://i.imgur.com/kBtlmlX.png",
+        "https://i.imgur.com/rf4hDQZ.png", "https://i.imgur.com/S0tPduY.png",
+        "https://i.imgur.com/q6Wa9TN.png"
       ],
     },
     {
@@ -40,13 +40,13 @@ const Projects = () => {
       description: "Este proyecto es un sistema de reservas para espacios, que permite a los usuarios registrarse, iniciar sesión, visualizar espacios disponibles, crear y gestionar reservas, y para los administradores, gestionar usuarios, roles, espacios y visualizar todas las reservas. Cuenta con autenticación basada en JWT, un calendario interactivo, gestión de roles y notificaciones visuales para mejorar la experiencia de usuario.",
       link: "https://github.com/DdEze/ReservEase",
       images: [
-        "/ReservEase/ReservEase 1.png", "/ReservEase/ReservEase 2.png",
-        "/ReservEase/ReservEase 3.png", "/ReservEase/ReservEase 4.png",
-        "/ReservEase/ReservEase 5.png", "/ReservEase/ReservEase 6.png",
-        "/ReservEase/ReservEase 7.png", "/ReservEase/ReservEase 8.png",
-        "/ReservEase/ReservEase 9.png", "/ReservEase/ReservEase 10.png",
-        "/ReservEase/ReservEase 11.png", "/ReservEase/ReservEase 12.png",
-        "/ReservEase/ReservEase 13.png"
+        "https://i.imgur.com/ScuVXlJ.png", "https://i.imgur.com/LOuaY54.png",
+        "https://i.imgur.com/lUBOZXW.png", "https://i.imgur.com/2nPKbem.png",
+        "https://i.imgur.com/o6ATW86.png", "https://i.imgur.com/9GzhhrY.png",
+        "https://i.imgur.com/ngZBUfI.png", "https://i.imgur.com/p7g8X1O.png",
+        "https://i.imgur.com/clUgEeG.png", "https://i.imgur.com/vmCIbT9.png",
+        "https://i.imgur.com/SMbyvWi.png", "https://i.imgur.com/w44dNUF.png",
+        "https://i.imgur.com/O1LYX9X.png"
       ],
     },
   ];
