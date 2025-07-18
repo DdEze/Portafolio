@@ -49,6 +49,15 @@ const Projects = () => {
         "https://i.imgur.com/O1LYX9X.png"
       ],
     },
+    {
+      title: "iTunes",
+      description: "Aplicación móvil creada con React Native que permite buscar canciones usando la API de iTunes, marcarlas como favoritas y compartirlas en redes sociales.",
+      link: "https://github.com/DdEze/iTunes",
+      images: [
+        "https://i.imgur.com/mrOeeR8.jpeg", "https://i.imgur.com/hhPveQo.jpeg",
+        "https://i.imgur.com/WmmY6b2.jpeg", "https://i.imgur.com/jjqOXd3.jpeg"
+      ],
+    },
   ];
 
  const [currentPage, setCurrentPage] = useState(1);
