@@ -9,7 +9,6 @@ const Navbar = ({ darkMode, setDarkMode }) => {
     <nav className="navbar">
       <div className="navbar-logo">De Dominicis Ezequiel</div>
 
-      {/* Botón Hamburguesa */}
       <button className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
         ☰
       </button>

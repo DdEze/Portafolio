@@ -1,5 +1,6 @@
 .navbar {
   background-color: #ffffff;
+  border-bottom: 1px solid #ccc;
   color: #333;
   padding: 1rem 2rem;
   height: 70px; 
@@ -55,6 +56,7 @@
 /* Dark mode */
 body.dark .navbar {
   background-color: #1e1e1e;
+  border-bottom: 1px solid #2a2a2a;
 }
 
 body.dark .navbar-links li a,
@@ -63,17 +65,21 @@ body.dark .navbar-logo {
 }
 
 body.dark .navbar-links li a:hover {
-  color: #00bcd4;
+  color: #a259ff;;
 }
 
 body.dark .download-cv {
-  border-color: #00bcd4;
-  color: #00bcd4;
+  border-color: #a259ff;
+  color: #a259ff;
 }
 
 body.dark .download-cv:hover {
-  background-color: #00bcd4;
+  background-color: #a259ff;
   color: #fff;
+}
+
+body.dark .navbar-logo {
+  color: #a259ff;
 }
 
 .toggle-dark {

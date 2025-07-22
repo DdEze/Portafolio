@@ -21,3 +21,15 @@
   color: #444;
   line-height: 1.6;
 }
+
+body.dark .home p {
+  color: #fff;
+}
+
+body.dark .home h1 {
+  color: #a259ff;
+}
+
+body.dark .home p {
+  color: #ccc;
+}

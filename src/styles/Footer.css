@@ -3,9 +3,12 @@
 }
 
 .footer {
+  background-color: #f5f7fa;
+  border-top: 1px solid #ccc;
   text-align: center;
-  padding: 2rem 1rem;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  padding: 1rem 0;
+  color: #333;
+  font-size: 0.9rem;
 }
 
 .footer.light {
@@ -13,9 +16,10 @@
   color: #333;
 }
 
-.footer.dark {
-  background-color: #121212;
-  color: #eee;
+body.dark footer {
+  background-color: #161616;
+  border-top: 1px solid #2a2a2a;
+  color: #ccc;
 }
 
 .footer-social img {
@@ -49,4 +53,10 @@
 
 .footer.light .footer-social img[alt="GitHub"]:hover {
   background-color: white;
+}
+
+.icon {
+  font-size: 1.3rem;
+  margin-right: 0.3rem;
+  vertical-align: middle;
 }

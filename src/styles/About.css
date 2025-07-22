@@ -4,6 +4,7 @@
   padding: 0 1rem;
   color: #333;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .about h2 {
@@ -89,4 +90,24 @@
   .skills-list {
     gap: 1.5rem;
   }
+}
+
+body.dark .about {
+  color: #d0c9f7; 
+}
+
+body.dark .about h2 {
+  color: #b085f5;
+}
+
+body.dark .skills-section h3 {
+  color: #a275e6;
+}
+
+body.dark .skills-grid img {
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.5));
+}
+
+body.dark .skill-item {
+  color: #a275e6;
 }

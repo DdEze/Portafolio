@@ -36,6 +36,7 @@ const About = () => {
         <h3>Frameworks y Librerías</h3>
         <div className="skills-grid">
           <img src="/images/react.png" alt="React" title="React" />
+          <img src="/images/react-native.webp" alt="TypeScript" title="TypeScript" />
           <img src="/images/ruby_on_rails.png" alt="Ruby on Rails" title="Ruby on Rails" />
           <img src="/images/nodejs.png" alt="Node.js" title="Node.js" />
         </div>
