@@ -30,11 +30,15 @@ const ProjectCard = ({ project }) => {
       <div className="project-content">
         <h3>{project.title}</h3>
         <p>{project.description}</p>
-        <a
-          href={project.link}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <div className="tech-list">
+          <strong>Tecnologías y Lenguajes:</strong>{" "}
+          {project.tech.map((tech, idx) => (
+            <span key={idx} className="tech-tag">
+              {tech}
+            </span>
+          ))}
+        </div>
+        <a href={project.link} target="_blank" rel="noopener noreferrer">
           Ver Proyecto
         </a>
       </div>
