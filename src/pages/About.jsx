@@ -21,7 +21,8 @@ const About = () => {
           Mi formación incluye tanto fundamentos teóricos sólidos como experiencia en desarrollo de proyectos con tecnologías como React, Node.js, Python, Ruby y bases de datos MySQL y MongoDB.
         </p>
       </div>
-      <div className="skills-section">
+
+      <div className="skills-section skills">
         <h2>Habilidades</h2>
         <h3>Lenguajes de Programación</h3>
         <div className="skills-grid">
@@ -83,6 +84,22 @@ const About = () => {
             <span>RESTful API Design</span>
           </div>
         </div>
+      </div>
+
+      <div className="current-state">
+        <h2>Estado Actual</h2>
+        <p>
+          Actualmente estoy desarrollando proyectos para mi portafolio utilizando <strong>React</strong> y <strong>MongoDB</strong>, enfocándome en buenas prácticas y experiencia de usuario.
+        </p>
+        <p>
+          Estoy aprendiendo <strong>React Native</strong> para crear aplicaciones móviles.
+        </p>
+        <p>
+          Me encuentro terminando mi carrera en Sistemas, con especial interés en <strong>UX/UI</strong>, <strong>desarrollo fullstack</strong> y la integración entre diseño y programación.
+        </p>
+        <p>
+          Estoy abierto a nuevas oportunidades y con muchas ganas de iniciar mi primera experiencia laboral como desarrollador.
+        </p>
       </div>
 
     </section>
