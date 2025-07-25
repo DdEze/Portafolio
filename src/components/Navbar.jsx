@@ -17,6 +17,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
         <li><Link to="/" onClick={() => setMenuOpen(false)}>Inicio</Link></li>
         <li><Link to="/about" onClick={() => setMenuOpen(false)}>Acerca de mí</Link></li>
         <li><Link to="/projects" onClick={() => setMenuOpen(false)}>Proyectos</Link></li>
+        <li><Link to="/contact" onClick={() => setMenuOpen(false)}>Contacto</Link></li>
         <li>
           <a
             href="/C.V.pdf"
