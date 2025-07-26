@@ -1,10 +1,17 @@
 body {
-  animation: fadeIn 0.6s ease-out;
-  background: linear-gradient(180deg, #f5f7fa 0%, #e2edf2 100%);
-  color: #000; /* Texto por defecto */
+  background: #f4f4f4;
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(0, 188, 212, 0.15) 4px, transparent 5px),
+    radial-gradient(circle at 80% 80%, rgba(0, 188, 212, 0.15) 4px, transparent 5px);
+  background-size: 80px 80px;
+  background-repeat: repeat;
 }
 
 body.dark {
-  background: linear-gradient(180deg, #121212 0%, #1e1e1e 100%);
-  color: #fff;
+  background: #1e1b2f;
+  background-image:
+    radial-gradient(circle at 30% 30%, rgba(176, 133, 245, 0.07) 3px, transparent 4px),
+    radial-gradient(circle at 70% 70%, rgba(176, 133, 245, 0.07) 3px, transparent 4px);
+  background-size: 120px 120px;
+  background-repeat: repeat;
 }

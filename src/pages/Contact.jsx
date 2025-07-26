@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import { useLanguage } from "../language/useLanguage";
 import emailjs from "emailjs-com";
 import "../styles/Contact.css";
@@ -24,6 +24,15 @@ const Contact = () => {
     e.target.reset();
   };
 
+  useEffect(() => {
+    if (success) {
+      const timer = setTimeout(() => {
+        setSuccess(false);
+      }, 4000);
+      return () => clearTimeout(timer);
+    }
+  }, [success]);
+
   return (
     <section id="contact" className="contact">
       <h2>{t("contact")}</h2>
@@ -34,7 +43,7 @@ const Contact = () => {
         <textarea name="message" placeholder={t("your_message")} required></textarea>
         <button type="submit">{t("send")}</button>
       </form>
-      {success && <p className="success">{t("success_message")}</p>}
+      {success && <div className="alert-success">{t("success_message")}</div>}
     </section>
   );
 };

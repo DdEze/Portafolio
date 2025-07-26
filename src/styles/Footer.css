@@ -25,34 +25,33 @@ body.dark footer {
 .footer-social img {
   width: 30px;
   margin: 0 0.5rem;
-  filter: grayscale(100%);
-  transition: filter 0.3s ease;
+  transition: filter 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
 }
 
 .footer-social img:hover {
-  filter: grayscale(0%);
+  transform: scale(1.1);
 }
 
-.footer.dark .footer-social img[alt="GitHub"] {
-  background-color: #555555;
+.footer.dark .footer-social img[alt="GitHub"]{
+  background-color: white;  
   padding: 5px;
-  transition: background-color 0.3s ease;
-  cursor: pointer;
-}
-
-.footer.dark .footer-social img[alt="GitHub"]:hover {
-  background-color: white;
+  border-radius: 5px;
 }
 
 .footer.light .footer-social img[alt="GitHub"] {
-  background-color: #555555;
+  background-color: gray;
   padding: 5px;
-  transition: background-color 0.3s ease;
-  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.footer.dark .footer-social img[alt="GitHub"]:hover{
+  background-color: white;
 }
 
 .footer.light .footer-social img[alt="GitHub"]:hover {
-  background-color: white;
+  background-color: gray;
 }
 
 .icon {

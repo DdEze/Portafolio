@@ -107,10 +107,13 @@ body.dark .download-cv:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
+body.dark .toggle-lang{
+    color: #f0f0f0;
+}
 
 body.dark .toggle-dark:hover,
 body.dark .toggle-lang:hover {
-  background-color: #a259ff
+  background-color: #a259ff;
 }
 
 .menu-toggle {
