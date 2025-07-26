@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
+import { useLanguage } from "../language/useLanguage";
 
 const Navbar = ({ darkMode, setDarkMode }) => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const { t, toggleLanguage, lang } = useLanguage();
 
   return (
     <nav className="navbar">
@@ -14,10 +16,10 @@ const Navbar = ({ darkMode, setDarkMode }) => {
       </button>
 
       <ul className={`navbar-links ${menuOpen ? "active" : ""}`}>
-        <li><Link to="/" onClick={() => setMenuOpen(false)}>Inicio</Link></li>
-        <li><Link to="/about" onClick={() => setMenuOpen(false)}>Acerca de mí</Link></li>
-        <li><Link to="/projects" onClick={() => setMenuOpen(false)}>Proyectos</Link></li>
-        <li><Link to="/contact" onClick={() => setMenuOpen(false)}>Contacto</Link></li>
+        <li><Link to="/" onClick={() => setMenuOpen(false)}>{t("nav_home")}</Link></li>
+        <li><Link to="/about" onClick={() => setMenuOpen(false)}>{t("nav_about")}</Link></li>
+        <li><Link to="/projects" onClick={() => setMenuOpen(false)}>{t("nav_projects")}</Link></li>
+        <li><Link to="/contact" onClick={() => setMenuOpen(false)}>{t("nav_contact")}</Link></li>
         <li>
           <a
             href="/C.V.pdf"
@@ -25,7 +27,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             className="download-cv"
             onClick={() => setMenuOpen(false)}
           >
-            Descargar CV
+            {t("nav_download")}
           </a>
         </li>
         <li>
@@ -37,6 +39,17 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             className="toggle-dark"
           >
             {darkMode ? "☀️" : "🌙"}
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              toggleLanguage();
+              setMenuOpen(false);
+            }}
+            className="toggle-lang"
+          >
+            🌐 {lang === "es" ? "EN" : "ES"}
           </button>
         </li>
       </ul>

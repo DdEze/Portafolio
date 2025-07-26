@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import { useLanguage } from "../language/useLanguage";
 import "../styles/Projects.css";
 
 const ProjectCard = ({ project }) => {
+  const { t } = useLanguage();
   const [imageIndex, setImageIndex] = useState(0);
   const images = project.images;
 
@@ -31,7 +33,7 @@ const ProjectCard = ({ project }) => {
         <h3>{project.title}</h3>
         <p>{project.description}</p>
         <div className="tech-list">
-          <strong>Tecnologías y Lenguajes:</strong>{" "}
+          <strong>{t("technologies")}:</strong>{" "}
           {project.tech.map((tech, idx) => (
             <span key={idx} className="tech-tag">
               {tech}
@@ -39,7 +41,7 @@ const ProjectCard = ({ project }) => {
           ))}
         </div>
         <a href={project.link} target="_blank" rel="noopener noreferrer">
-          Ver Proyecto
+          {t("view_project")}
         </a>
       </div>
     </div>

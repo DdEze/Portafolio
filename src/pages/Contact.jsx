@@ -1,8 +1,10 @@
 import React, { useRef, useState } from 'react';
+import { useLanguage } from "../language/useLanguage";
 import emailjs from "emailjs-com";
 import "../styles/Contact.css";
 
 const Contact = () => {
+  const { t } = useLanguage();
   const form = useRef();
   const [success, setSuccess] = useState(false);
 
@@ -12,13 +14,10 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    console.log(serviceId, templateId, publicKey)
     emailjs.sendForm(serviceId, templateId, form.current, publicKey)
       .then((result) => {
-          console.log(result.text);
           setSuccess(true);
       }, (error) => {
-          console.log(error.text);
           setSuccess(false);
       });
 
@@ -27,14 +26,15 @@ const Contact = () => {
 
   return (
     <section id="contact" className="contact">
-      <h2>Contacto</h2>
-      <p>¡Hablemos! Estoy disponible para proyectos o colaboraciones.</p>
+      <h2>{t("contact")}</h2>
+      <p>{t("contact_description")}</p>
       <form ref={form} onSubmit={sendEmail} className="contact-form">
-        <input type="text" name="name" placeholder="Tu nombre" required />
-        <input type="email" name="email" placeholder="Tu correo electrónico" required />
-        <textarea name="message" placeholder="Tu mensaje" required></textarea>
-        <button type="submit">Enviar</button>
+        <input type="text" name="name" placeholder={t("your_name")} required />
+        <input type="email" name="email" placeholder={t("your_email")} required />
+        <textarea name="message" placeholder={t("your_message")} required></textarea>
+        <button type="submit">{t("send")}</button>
       </form>
+      {success && <p className="success">{t("success_message")}</p>}
     </section>
   );
 };
