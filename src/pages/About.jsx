@@ -102,6 +102,37 @@ const About = () => {
         </p>
       </div>
 
+      <div className="background" id="education">
+        <h2>Experiencia Académica</h2>
+
+        <div class="item">
+          <h3>Técnico Informático</h3>
+          <p><strong>Escuela Técnica N° 2 "Santiago de Liniers"</strong> — Secundario técnico completo</p>
+          <p>
+            Formación técnica con orientación práctica hardware, software y programación. Título secundario con salida laboral como técnico informático.
+          </p>
+        </div>
+
+        <div class="item">
+          <h3>Analista Programador Universitario</h3>
+          <p><strong>UNLP Informática</strong></p>
+          <p>
+            Carrera de 3 años enfocada en fundamentos de programación, bases de datos, estructuras de datos y desarrollo de aplicaciones.
+          </p>
+        </div>
+
+        <div className="item">
+          <h3>Licenciatura en Sistemas</h3>
+          <p><strong>UNLP Informática</strong> — 2025 - Actualidad</p>
+          <p>
+            En curso. Actualmente realizando la tesina.
+            He desarrollado proyectos integradores en equipo aplicando metodologías ágiles, y actualmente estoy trabajando en mi tesina.
+          </p>
+        </div>
+
+      </div>
+
+
     </section>
   );
 };

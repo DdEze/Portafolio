@@ -59,37 +59,6 @@
   background-color: #0097a7;
 }
 
-/* Info adicional */
-.contact-info {
-  margin-top: 3rem;
-}
-
-.contact-info h3 {
-  color: #0097a7;
-  margin-bottom: 1rem;
-}
-
-.contact-info p {
-  margin-bottom: 1rem;
-  font-size: 1rem;
-}
-
-.social-links {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-}
-
-.social-icon {
-  width: 40px;
-  height: 40px;
-  transition: transform 0.3s ease;
-  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1));
-}
-
-.social-icon:hover {
-  transform: scale(1.1);
-} 
 
 /* === MODO OSCURO === */
 body.dark .contact h2 {
@@ -120,12 +89,4 @@ body.dark .contact-form button {
 
 body.dark .contact-form button:hover {
   background-color: #8e69e1;
-}
-
-body.dark .contact-info h3 {
-  color: #b085f5;
-}
-
-body.dark .social-icon {
-  filter: brightness(0.9) drop-shadow(0 1px 2px rgba(255, 255, 255, 0.1));
 }
