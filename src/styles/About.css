@@ -23,7 +23,7 @@
 
 /* Skills Sections */
 .skills {
-  border-top: 1px solid #ddd;
+  border-top: 1px solid rgba(0, 0, 0, 0.603);
 }
 
 .skills-section {
@@ -86,8 +86,7 @@
 
 .current-state {
   margin-top: 3rem;
-  padding-top: 2rem;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid rgba(0, 0, 0, 0.603);
   text-align: center;
 }
 
@@ -113,7 +112,7 @@
   padding: 0 1rem;
   font-family: 'Segoe UI', sans-serif;
   color: var(--text-color);
-  border-top: 1px solid #ddd;
+  border-top: 1px solid rgba(0, 0, 0, 0.603);
 }
 
 .background h2 {
@@ -156,8 +155,16 @@ body.dark .skills-grid img {
   filter: drop-shadow(0 1px 2px rgba(0,0,0,0.5));
 }
 
+body.dark .skills {
+  border-top: 1px solid #ddd;
+}
+
 body.dark .skill-item {
   color: #a275e6;
+}
+
+body.dark .current-state {
+  border-top: 1px solid #ddd;
 }
 
 body.dark .current-state h2 {
@@ -166,6 +173,10 @@ body.dark .current-state h2 {
 
 body.dark .current-state p {
   color: #fff;
+}
+
+body.dark .background{
+  border-top: 1px solid #ddd;
 }
 
 body.dark .background h3 {
