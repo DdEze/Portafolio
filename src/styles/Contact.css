@@ -106,6 +106,19 @@ body.dark .contact-form button:hover {
   animation: fadeInSlide 0.4s ease-out;
 }
 
+.alert-error {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #721c24;
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  z-index: 9999;
+  animation: fadeInSlide 0.4s ease-out;
+}
+
 @keyframes fadeInSlide {
   0% {
     opacity: 0;
