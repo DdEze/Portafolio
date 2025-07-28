@@ -9,7 +9,7 @@ export const translations = {
     home_desc: "Soy desarrollador web con formación en programación orientada a objetos, estructuras de datos y desarrollo de software. Estudiante avanzado de la carrera Licenciatura en Sistemas en la Facultad de Informática UNLP, enfocado en construir soluciones funcionales, limpias y escalables.",
     about_title: "Acerca de mí",
     about_intro_1: "Soy estudiante avanzado de la Licenciatura en Sistemas de la UNLP, con sólida formación en algoritmos, organización de datos, programación orientada a objetos y desarrollo de software.",
-    about_intro_2: "Durante mi carrera, he adquirido conocimientos en diseño de bases de datos, ingeniería de software, sistemas operativos, redes y desarrollo de sistemas distribuidos.",
+    about_intro_2: "Durante mi carrera, he adquirido conocimientos en diseño de bases de datos, ingeniería de software, sistemas operativos, redes y también tengo conocimientos teórico en desarrollo de sistemas distribuidos y programación concurrente.",
     about_intro_3: "Además, me apasiona la implementación de soluciones prácticas que integren calidad de software, patrones de diseño y buenas prácticas profesionales.",
     about_intro_4: "Mi formación incluye tanto fundamentos teóricos sólidos como experiencia en desarrollo de proyectos con tecnologías como React, Node.js, Python, Ruby y bases de datos MySQL y MongoDB.",
     skills_title: "Habilidades",
@@ -44,6 +44,7 @@ export const translations = {
     your_message: "Tu mensaje",
     send: "Enviar",
     success_message: "¡Mensaje enviado con éxito!",
+    email_throttle_error: "Por favor, esperá unos minutos antes de enviar otro mensaje.",
     pagination_page: "Página",
     projects_title: "Proyectos"
   },
@@ -57,7 +58,7 @@ export const translations = {
     home_desc: "I am a web developer with training in object-oriented programming, data structures, and software development. I'm an advanced student in the Computer Systems degree at the UNLP School of Informatics, focused on building functional, clean, and scalable solutions.",
     about_title: "About Me",
     about_intro_1: "I am an advanced student of the Computer Systems degree at UNLP, with solid training in algorithms, data organization, object-oriented programming, and software development.",
-    about_intro_2: "During my studies, I have gained knowledge in database design, software engineering, operating systems, networks, and distributed systems development.",
+    about_intro_2: "During my studies, I have acquired knowledge in database design, software engineering, operating systems, networks, and I also have theoretical knowledge in distributed systems development and concurrent programming.",
     about_intro_3: "Additionally, I am passionate about implementing practical solutions that integrate software quality, design patterns, and professional best practices.",
     about_intro_4: "My training includes both solid theoretical foundations and experience developing projects with technologies such as React, Node.js, Python, Ruby, and MySQL and MongoDB databases.",
     skills_title: "Skills",
@@ -92,6 +93,7 @@ export const translations = {
     your_message: "Your message",
     send: "Send",
     success_message: "Message sent successfully!",
+    email_throttle_error: "Please wait a few minutes before sending another message.",
     pagination_page: "Page",
     projects_title: "Projects"
   },
