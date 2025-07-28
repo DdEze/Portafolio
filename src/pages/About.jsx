@@ -21,37 +21,37 @@ const About = () => {
         <h2>{t("skills_title")}</h2>
         <h3>{t("skills_languages")}</h3>
         <div className="skills-grid">
-          <img src="/images/java.png" alt="Java" title="Java" />
-          <img src="/images/javascript.png" alt="JavaScript" title="JavaScript" />
-          <img src="/images/python.png" alt="Python" title="Python" />
-          <img src="/images/ruby.png" alt="Ruby" title="Ruby" />
+          <img src="/images/java.webp" alt="Java" title="Java" />
+          <img src="/images/javascript.webp" alt="JavaScript" title="JavaScript" />
+          <img src="/images/python.webp" alt="Python" title="Python" />
+          <img src="/images/ruby.webp" alt="Ruby" title="Ruby" />
           <img src="/images/typescript.webp" alt="TypeScript" title="TypeScript" />
         </div>
       </div>
       <div className="skills-section">
         <h3>{t("skills_frameworks")}</h3>
         <div className="skills-grid">
-          <img src="/images/react.png" alt="React" title="React" />
+          <img src="/images/react.webp" alt="React" title="React" />
           <img src="/images/react-native.webp" alt="TypeScript" title="TypeScript" />
-          <img src="/images/ruby_on_rails.png" alt="Ruby on Rails" title="Ruby on Rails" />
-          <img src="/images/nodejs.png" alt="Node.js" title="Node.js" />
+          <img src="/images/ruby_on_rails.webp" alt="Ruby on Rails" title="Ruby on Rails" />
+          <img src="/images/nodejs.webp" alt="Node.js" title="Node.js" class="tech-image"/>
         </div>
       </div>
 
       <div className="skills-section">
         <h3>{t("skills_databases")}</h3>
         <div className="skills-grid">
-          <img src="/images/mysql.png" alt="MySQL" title="MySQL" />
-          <img src="/images/mongodb.png" alt="MongoDB" title="MongoDB" />
+          <img src="/images/mysql.webp" alt="MySQL" title="MySQL"/>
+          <img src="/images/mongodb.webp" alt="MongoDB" title="MongoDB" class="tech-image"/>
         </div>
       </div>
 
       <div className="skills-section">
         <h3>{t("skills_tools")}</h3>
         <div className="skills-grid">
-          <img src="/images/git.png" alt="Git" title="Git" />
-          <img src="/images/html.png" alt="HTML" title="HTML" />
-          <img src="/images/css.png" alt="CSS" title="CSS" />
+          <img src="/images/git.webp" alt="Git" title="Git" />
+          <img src="/images/html.webp" alt="HTML" title="HTML" />
+          <img src="/images/css.webp" alt="CSS" title="CSS" />
         </div>
       </div>
 

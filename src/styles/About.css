@@ -230,3 +230,14 @@ body.dark .background h3 {
     font-size: 1.1rem;
   }
 }
+
+.skills-grid img.tech-image {
+  object-fit: contain;
+}
+
+body.dark .skills-grid img.tech-image {
+  background-color: white;
+  padding: 6px;
+  border-radius: 50px;
+  object-fit: contain;
+}

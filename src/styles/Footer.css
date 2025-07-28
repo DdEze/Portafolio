@@ -1,9 +1,5 @@
-.email{
-  padding: 1rem;
-}
-
 .footer {
-  background-color: #f5f7fa;
+  background-color: #dfe9ef;
   border-top: 1px solid #ccc;
   text-align: center;
   padding: 1rem 0;
@@ -58,4 +54,8 @@ body.dark footer {
   font-size: 1.3rem;
   margin-right: 0.3rem;
   vertical-align: middle;
+}
+
+.email{
+  padding: 1rem;
 }
