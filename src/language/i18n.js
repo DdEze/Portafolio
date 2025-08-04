@@ -38,15 +38,13 @@ export const translations = {
     technologies: "Tecnologías y Lenguajes",
     view_project: "Ver Proyecto",
     contact: "Contacto",
-    contact_description: "¡Hablemos! Estoy disponible para proyectos o colaboraciones.",
+    contact_description: "¡Hablemos! Estoy abierto a propuestas laborales, colaboraciones freelance o cualquier tipo de proyecto relacionado con tecnología y desarrollo web. Tu mensaje es bienvenido.",
     your_name: "Tu nombre",
     your_email: "Tu correo electrónico",
     your_message: "Tu mensaje",
     send: "Enviar",
     success_message: "¡Mensaje enviado con éxito!",
     email_throttle_error: "Por favor, esperá unos minutos antes de enviar otro mensaje.",
-    pagination_page: "Página",
-    projects_title: "Proyectos"
   },
   en: {
     nav_home: "Home",
@@ -87,14 +85,12 @@ export const translations = {
     technologies: "Technologies and Languages",
     view_project: "View Project",
     contact: "Contact",
-    contact_description: "Let's talk! I'm available for projects or collaborations.",
+    contact_description: "Let's talk! I am open to job proposals, freelance collaborations or any type of project related to technology and web development. Your message is welcome.",
     your_name: "Your name",
     your_email: "Your email",
     your_message: "Your message",
     send: "Send",
     success_message: "Message sent successfully!",
     email_throttle_error: "Please wait a few minutes before sending another message.",
-    pagination_page: "Page",
-    projects_title: "Projects"
   },
 };

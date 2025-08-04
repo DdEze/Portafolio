@@ -1,8 +1,8 @@
-body {
+/* body {
   background: #f4f4f4;
   background-image:
-    radial-gradient(circle at 20% 20%, rgba(0, 188, 212, 0.15) 4px, transparent 5px),
-    radial-gradient(circle at 80% 80%, rgba(0, 188, 212, 0.15) 4px, transparent 5px);
+    radial-gradient(circle at 20% 20%, rgba(0, 187, 212, 0.26) 4px, transparent 5px),
+    radial-gradient(circle at 80% 80%, rgba(0, 187, 212, 0.26) 4px, transparent 5px);
   background-size: 80px 80px;
   background-repeat: repeat;
 }
@@ -14,4 +14,41 @@ body.dark {
     radial-gradient(circle at 70% 70%, rgba(176, 133, 245, 0.07) 3px, transparent 4px);
   background-size: 120px 120px;
   background-repeat: repeat;
+} */
+
+body {
+  background: #f4f4f4;
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(0, 187, 212, 0.26) 4px, transparent 5px),
+    radial-gradient(circle at 80% 80%, rgba(0, 187, 212, 0.26) 4px, transparent 5px);
+  background-size: 80px 80px;
+  background-repeat: repeat;
+}
+
+body.dark {
+  background: #1e1b2f;
+  background-image:
+    radial-gradient(circle at 30% 30%, rgba(176, 133, 245, 0.07) 3px, transparent 4px),
+    radial-gradient(circle at 70% 70%, rgba(176, 133, 245, 0.07) 3px, transparent 4px);
+  background-size: 120px 120px;
+  background-repeat: repeat;
+}
+
+@keyframes moveBackground {
+  0% {
+    background-position: 0 0, 0 0;
+  }
+  100% {
+    background-position: 80px 80px, 80px 80px;
+  }
+}
+
+body {
+  background: #f4f4f4;
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(0, 187, 212, 0.26) 4px, transparent 5px),
+    radial-gradient(circle at 80% 80%, rgba(0, 187, 212, 0.26) 4px, transparent 5px);
+  background-size: 80px 80px;
+  background-repeat: repeat;
+  animation: moveBackground 20s linear infinite;
 }
