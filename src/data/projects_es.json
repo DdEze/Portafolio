@@ -77,5 +77,16 @@
         "https://i.imgur.com/Aq8r3wp.png", "https://i.imgur.com/nxUgH2G.png",
         "https://i.imgur.com/g62CjDl.png", "https://i.imgur.com/ypgjfiu.png"
       ]
-    }    
+    },
+    {
+      "title": "Confidant",
+      "description": "Confidant es una aplicación de diario emocional, pensada para ayudarte a llevar un registro diario de tus emociones, pensamientos y actividades. Cada entrada permite identificar cómo te sentiste en el día mediante un emoji, acompañarlo con un texto reflexivo y luego visualizar todo en un historial accesible y ordenado por fecha. La app incluye un gráfico de entradas semanales, lo que permite visualizar la frecuencia de tus registros a lo largo del tiempo. Esto facilita notar patrones emocionales o hábitos personales. La interfaz está diseñada para ser simple, amigable y funcional, permitiendo escribir con libertad y sin distracciones.",
+      "link": "https://github.com/DdEze/Confidant",
+      "tech": ["React Native, TypeScript y LocalStorage"],
+      "images": [
+        "https://i.imgur.com/nZGV3QN.png", "https://i.imgur.com/Wg66bbF.png",
+        "https://i.imgur.com/iTAfU2r.png", "https://i.imgur.com/glfUI69.png",
+        "https://i.imgur.com/yL9GGW9.png"
+      ]
+    } 
 ]
