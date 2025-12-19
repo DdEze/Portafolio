@@ -93,9 +93,9 @@ const About = () => {
         <h2>{t("education_title")}</h2>
 
         <div className="item">
-          <h3>{t("education_1_title")}</h3>
-          <p><strong>{t("education_1_institution")}</strong></p>
-          <p>{t("education_1_desc")}</p>
+          <h3>{t("education_3_title")}</h3>
+          <p><strong>{t("education_3_institution")}</strong></p>
+          <p>{t("education_3_desc")}</p>
         </div>
 
         <div className="item">
@@ -105,10 +105,11 @@ const About = () => {
         </div>
 
         <div className="item">
-          <h3>{t("education_3_title")}</h3>
-          <p><strong>{t("education_3_institution")}</strong></p>
-          <p>{t("education_3_desc")}</p>
+          <h3>{t("education_1_title")}</h3>
+          <p><strong>{t("education_1_institution")}</strong></p>
+          <p>{t("education_1_desc")}</p>
         </div>
+
       </div>
     </section>
   );
