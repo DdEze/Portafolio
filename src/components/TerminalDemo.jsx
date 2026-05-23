@@ -189,7 +189,6 @@ Database:
               value={input}
               onChange={(e) => setInput(e.target.value)}
               autoComplete="off"
-              autoFocus
               placeholder={t("terminal_placeholder")}
             />
 
