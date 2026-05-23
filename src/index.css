@@ -13,16 +13,21 @@ html, body {
 
 a {
   text-decoration: none;
-  color: #00bcd4;
+  color: #007b8a;
 }
 
 a:hover {
-  color: #0097a7;
+  color: #007b8a;
 }
 
 /* Títulos generales */
 h1, h2, h3 {
-  color: #00bcd4;
+  color: #007b8a;
+  font-weight: 600;
+}
+
+body.dark h3 {
+  color:#a259ff;
   font-weight: 600;
 }
 
@@ -55,19 +60,19 @@ button {
   border: none;
   border-radius: 4px;
   padding: 0.5rem 1rem;
-  background-color: #00bcd4;
+  background-color: #007b8a;
   color: white;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
 button:hover {
-  background-color: #0097a7;
+  background-color: #007b8a;
 }
 
 /* Footer básico */
 footer {
-  background-color: #00bcd4;
+  background-color: #007b8a;
   color: white;
   padding: 1rem 0;
   text-align: center;

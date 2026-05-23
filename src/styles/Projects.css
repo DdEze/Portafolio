@@ -2,13 +2,6 @@
   padding: 4rem 2rem;
 }
 
-.projects h2 {
-  text-align: center;
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  color: #333;
-}
-
 .project-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -35,7 +28,7 @@
 }
 
 .project-item a {
-  color: #00bcd4;
+  color: #007b8a;
   text-decoration: none;
   font-weight: bold;
 }
@@ -96,8 +89,8 @@
 
 .pagination button {
   background-color: transparent;
-  border: 1px solid #00bcd4;
-  color: #00bcd4;
+  border: 1px solid #007b8a;
+  color: #007b8a;
   padding: 0.4rem 0.8rem;
   border-radius: 4px;
   cursor: pointer;
@@ -106,7 +99,7 @@
 
 .pagination button.active,
 .pagination button:hover {
-  background-color: #00bcd4;
+  background-color: #007b8a;
   color: white;
 }
 
@@ -115,7 +108,7 @@
   text-align: center;
   font-size: 2rem;
   margin-bottom: 2rem;
-  color: #333;
+  color: #007b8a;
 }
 
 .project-list {
@@ -144,7 +137,7 @@
 }
 
 .project-item a {
-  color: #00bcd4;
+  color: #007b8a;
   text-decoration: none;
   font-weight: bold;
 }
@@ -172,11 +165,11 @@
 
 body:not(.dark) .carousel-buttons button {
   background: rgba(0, 188, 212, 0.1);
-  color: #00bcd4;
+  color: #007b8a;
 }
 
 body:not(.dark) .carousel-buttons button:hover {
-  background: #00bcd4;
+  background: #007b8a;
   color: white;
 }
 
@@ -189,8 +182,8 @@ body:not(.dark) .carousel-buttons button:hover {
 
 .pagination button {
   background-color: transparent;
-  border: 1px solid #00bcd4;
-  color: #00bcd4;
+  border: 1px solid #007b8a;
+  color: #007b8a;
   padding: 0.4rem 0.8rem;
   border-radius: 4px;
   cursor: pointer;
@@ -199,7 +192,7 @@ body:not(.dark) .carousel-buttons button:hover {
 
 .pagination button.active,
 .pagination button:hover {
-  background-color: #00bcd4;
+  background-color: #007b8a;
   color: white;
 }
 

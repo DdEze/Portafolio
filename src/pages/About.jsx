@@ -34,7 +34,7 @@ const About = () => {
           <img src="/images/react.webp" alt="React" title="React" />
           <img src="/images/react-native.webp" alt="TypeScript" title="TypeScript" />
           <img src="/images/ruby_on_rails.webp" alt="Ruby on Rails" title="Ruby on Rails" />
-          <img src="/images/nodejs.webp" alt="Node.js" title="Node.js" class="tech-image"/>
+          <img src="/images/nodejs.webp" alt="Node.js" title="Node.js" className="tech-image"/>
         </div>
       </div>
 
@@ -42,7 +42,7 @@ const About = () => {
         <h3>{t("skills_databases")}</h3>
         <div className="skills-grid">
           <img src="/images/mysql.webp" alt="MySQL" title="MySQL"/>
-          <img src="/images/mongodb.webp" alt="MongoDB" title="MongoDB" class="tech-image"/>
+          <img src="/images/mongodb.webp" alt="MongoDB" title="MongoDB" className="tech-image"/>
         </div>
       </div>
 

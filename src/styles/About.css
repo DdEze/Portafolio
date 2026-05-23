@@ -8,7 +8,7 @@
 }
 
 .about h2 {
-  color: #00bcd4;
+  color: #007b8a;
   font-weight: 700;
   margin-bottom: 1rem;
   text-align: center;
@@ -31,7 +31,7 @@
 }
 
 .skills-section h3 {
-  color: #0097a7;
+  color: #007b8a;
   font-weight: 600;
   margin-bottom: 1rem;
   text-align: center;
@@ -91,7 +91,7 @@
 }
 
 .current-state h2 {
-  color: #00bcd4;
+  color: #007b8a;
   font-weight: 700;
   margin-bottom: 1rem;
   text-align: center;
@@ -116,7 +116,7 @@
 }
 
 .background h2 {
-  color: #00bcd4;
+  color: #007b8a;
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -144,7 +144,7 @@ body.dark .about {
 }
 
 body.dark .about h2 {
-  color: #b085f5;
+  color: #a275e6;
 }
 
 body.dark .skills-section h3 {
@@ -168,7 +168,7 @@ body.dark .current-state {
 }
 
 body.dark .current-state h2 {
-  color: #b085f5;
+  color: #a275e6;
 }
 
 body.dark .current-state p {

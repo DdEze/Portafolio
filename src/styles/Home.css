@@ -1,18 +1,30 @@
 .home {
+  min-height: calc(100vh - 70px);
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: calc(100vh - 70px);
-  text-align: center;
   padding: 2rem;
+}
+
+.hero-content {
+  max-width: 900px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .home h1 {
   font-size: 3rem;
   font-weight: 700;
-  color: #00bcd4;
+  color: #007b8a;
   margin-bottom: 1rem;
+}
+
+.home h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #555;
 }
 
 .home p {
@@ -30,6 +42,110 @@ body.dark .home h1 {
   color: #a259ff;
 }
 
+body.dark .home h2 {
+  color: #ccc;
+}
+
 body.dark .home p {
   color: #ccc;
+}
+
+.hero-description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #444;
+}
+
+body.dark .hero-description {
+  color: #d1d1d1;
+}
+
+.home-extra {
+  margin-top: 1rem;
+}
+
+.home-extra p {
+  color: #666;
+  font-size: 1rem;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 0.9rem 1.5rem;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.primary-btn {
+  border: 1px solid #007b8a;
+  color: #007b8a;
+}
+
+body.dark .primary-btn {
+  border-color: #a259ff;
+  color: #a259ff;
+}
+
+.primary-btn:hover {
+  background: rgba(0, 188, 212, 0.08);
+}
+
+.secondary-btn {
+  border: 1px solid #007b8a;
+  color: #007b8a;
+}
+
+.secondary-btn:hover {
+  background: rgba(0, 188, 212, 0.08);
+}
+
+body.dark .secondary-btn {
+  border-color: #a259ff;
+  color: #a259ff;
+}
+
+.tech-stack {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.tech-badge {
+  padding: 0.6rem 1rem;
+  border-radius: 999px;
+  background: rgba(0, 187, 212, 0.26);
+  color: #007b8a;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+body.dark .tech-badge {
+  background: rgba(162, 89, 255, 0.12);
+  color: #c79cff;
+}
+
+@media (max-width: 768px) {
+  .home {
+    padding: 2rem 1.2rem;
+  }
+
+  .home h2 {
+    font-size: 1.3rem;
+  }
+
+  .hero-description {
+    font-size: 1.05rem;
+  }
 }
