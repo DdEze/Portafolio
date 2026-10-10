@@ -3,7 +3,10 @@
         "title": "TaskSprint",
         "description": "TaskSprint es una aplicación web para administrar tus tareas diarias. Con ella puedes crear, filtrar, marcar como completadas y reordenar tareas con drag & drop de manera sencilla y rápida. La persistencia se maneja con LocalStorage, por lo que tus tareas se mantienen entre sesiones.",
         "link": "https://github.com/DdEze/TaskSprint",
-        "tech": ["React, LocalStorage y Drag & Drop"],
+        "tech": ["React", "Node.js", "LocalStorage", "Drag & Drop"],
+        "filters": [
+          "React", "Node.js"
+        ],
         "images": [
         "https://i.imgur.com/oaHCATp.png",
         "https://i.imgur.com/RDbHISU.png",
@@ -17,7 +20,10 @@
         "title": "WalletWise",
         "description": "Aplicación web para administrar transacciones financieras y categorías, con funcionalidades para crear, editar, eliminar y filtrar datos. También permite gestionar el perfil de usuario (cambiar contraseña y eliminar cuenta). La interfaz está desarrollada en React y la base de datos utiliza MongoDB. Para la visualización de datos se usa Chart.js.",
         "link": "https://github.com/DdEze/WalletWise",
-        "tech": ["React, MongoDB y Chart.js"],
+        "tech": ["React", "Node.js", "MongoDB", "Chart.js"],
+        "filters": [
+          "React", "MongoDB", "Node.js"
+        ],
         "images": [
         "https://i.imgur.com/DwysHBK.png",
         "https://i.imgur.com/V571ErF.png",
@@ -32,7 +38,10 @@
         "title": "ChefNow",
         "description": "ChefNow es una aplicación web que permite a los usuarios explorar recetas de cocina, crear sus propias recetas y ver detalles de cada una, tanto desde una base de datos, como desde la API pública de TheMealDB.",
         "link": "https://github.com/DdEze/ChefNow",
-        "tech": ["React y MongoDB"],
+        "tech": ["React", "Node.js", "MongoDB"],
+        "filters": [
+          "React", "Node.js", "MongoDB"
+        ],
         "images": [
             "https://i.imgur.com/R5KbuEo.png", "https://i.imgur.com/8Bg8PCM.png",
             "https://i.imgur.com/AhFT0jt.png", "https://i.imgur.com/IkmNbpj.png",
@@ -46,7 +55,10 @@
         "title": "ReservEase",
         "description": "Este proyecto es un sistema de reservas para espacios, que permite a los usuarios registrarse, iniciar sesión, visualizar espacios disponibles, crear y gestionar reservas, y para los administradores, gestionar usuarios, roles, espacios y visualizar todas las reservas. Cuenta con autenticación basada en JWT, un calendario interactivo, gestión de roles y notificaciones visuales para mejorar la experiencia de usuario.",
         "link": "https://github.com/DdEze/ReservEase",
-        "tech": ["React, MondoDB y  Material UI"],
+        "tech": ["React", "Node.js", "MongoDB", "Material UI"],
+        "filters": [
+          "React", "Node.js", "MongoDB", "Material UI"
+        ],
         "images": [
             "https://i.imgur.com/ScuVXlJ.png", "https://i.imgur.com/LOuaY54.png",
             "https://i.imgur.com/lUBOZXW.png", "https://i.imgur.com/2nPKbem.png",
@@ -61,7 +73,10 @@
       "title": "iTunes",
       "description": "Aplicación móvil creada con React Native que permite buscar canciones usando la API de iTunes, marcarlas como favoritas y compartirlas en redes sociales.",
       "link": "https://github.com/DdEze/iTunes",
-      "tech": ["React Native, JavaScript y LocalStorage"],
+      "tech": ["React Native", "JavaScript", "LocalStorage"],
+      "filters": [
+        "React Native", "JavaScript"
+      ],
       "images": [
         "https://i.imgur.com/ywDKjwb.png", "https://i.imgur.com/39wa1ew.png",
         "https://i.imgur.com/uaIXpXb.png", "https://i.imgur.com/UdIBZP8.png"
@@ -71,7 +86,10 @@
       "title": "WeatherOn",
       "description": "Una aplicación movil simple para consultar el pronóstico del clima diario, incluyendo temperaturas máximas, mínimas, humedad y próximamente índice UV.",
       "link": "https://github.com/DdEze/WeatherON",
-      "tech": ["React Native, TypeScript, OpenWeatherMap API (One Call), Chart.js y LocalStorage"],
+      "tech": ["React Native", "TypeScript", "OpenWeatherMap API (One Call)", "Chart.js", "LocalStorage"],
+      "filters": [
+        "React Native", "TypeScript"
+      ],
       "images": [
         "https://i.imgur.com/eTdhQdi.png", "https://i.imgur.com/5krKued.png",
         "https://i.imgur.com/Aq8r3wp.png", "https://i.imgur.com/nxUgH2G.png",
@@ -82,7 +100,10 @@
       "title": "Confidant",
       "description": "Confidant es una aplicación de diario emocional, pensada para ayudarte a llevar un registro diario de tus emociones, pensamientos y actividades. Cada entrada permite identificar cómo te sentiste en el día mediante un emoji, acompañarlo con un texto reflexivo y luego visualizar todo en un historial accesible y ordenado por fecha. La app incluye un gráfico de entradas semanales, lo que permite visualizar la frecuencia de tus registros a lo largo del tiempo. Esto facilita notar patrones emocionales o hábitos personales. La interfaz está diseñada para ser simple, amigable y funcional, permitiendo escribir con libertad y sin distracciones.",
       "link": "https://github.com/DdEze/Confidant",
-      "tech": ["React Native, TypeScript y LocalStorage"],
+      "tech": ["React Native", "TypeScript", "LocalStorage"],
+      "filters": [
+        "React Native", "TypeScript"
+      ],
       "images": [
         "https://i.imgur.com/nZGV3QN.png", "https://i.imgur.com/Wg66bbF.png",
         "https://i.imgur.com/iTAfU2r.png", "https://i.imgur.com/glfUI69.png",

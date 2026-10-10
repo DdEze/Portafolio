@@ -105,7 +105,10 @@ export const translations = {
     footer_description: "Desarrollador de software | Desarrollo web",
     footer_social_label: "Perfiles profesionales",
     footer_rights: "Todos los derechos reservados.",
-
+    projects_filter_label: "Filtrar por tecnología",
+    projects_filter_all: "Todos",
+    projects_no_results: "No hay proyectos que utilicen esta tecnología.",
+    pagination_label: "Paginación de proyectos",
   },
   en: {
     nav_home: "Home",
@@ -210,5 +213,10 @@ export const translations = {
     footer_description: "Software Developer | Web Development",
     footer_social_label: "Professional profiles",
     footer_rights: "All rights reserved.",
+    projects_filter_label: "Filter by technology",
+    projects_filter_all: "All",
+    projects_no_results: "No projects use this technology.",
+    pagination_label: "Project pagination",
+
   },
 };

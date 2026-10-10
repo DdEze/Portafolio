@@ -3,7 +3,10 @@
     "title": "TaskSprint",
     "description": "TaskSprint is a web application to manage your daily tasks. With it, you can create, filter, mark tasks as completed, and reorder tasks using drag & drop easily and quickly. Persistence is handled with LocalStorage, so your tasks remain between sessions.",
     "link": "https://github.com/DdEze/TaskSprint",
-    "tech": ["React, LocalStorage and Drag & Drop"],
+    "tech": ["React", "Node.js", "LocalStorage", "Drag & Drop"],
+    "filters": [
+      "React", "Node.js"
+    ],
     "images": [
       "https://i.imgur.com/oaHCATp.png",
       "https://i.imgur.com/RDbHISU.png",
@@ -17,7 +20,10 @@
     "title": "WalletWise",
     "description": "Web application to manage financial transactions and categories, with features to create, edit, delete, and filter data. It also allows user profile management (change password and delete account). The interface is developed in React and the database uses MongoDB. Data visualization is done with Chart.js.",
     "link": "https://github.com/DdEze/WalletWise",
-    "tech": ["React, MongoDB and Chart.js"],
+    "tech": ["React", "MongoDB", "Chart.js", "Node.js"],
+    "filters": [
+      "React", "MongoDB", "Node.js"
+    ],
     "images": [
       "https://i.imgur.com/DwysHBK.png",
       "https://i.imgur.com/V571ErF.png",
@@ -32,7 +38,10 @@
     "title": "ChefNow",
     "description": "ChefNow is a web application that allows users to explore cooking recipes, create their own recipes, and view details of each one, both from a database and from the public TheMealDB API.",
     "link": "https://github.com/DdEze/ChefNow",
-    "tech": ["React and MongoDB"],
+    "tech": ["React", "Node.js", "MongoDB"],
+    "filters": [
+      "React", "Node.js", "MongoDB"
+    ],
     "images": [
       "https://i.imgur.com/R5KbuEo.png", "https://i.imgur.com/8Bg8PCM.png",
       "https://i.imgur.com/AhFT0jt.png", "https://i.imgur.com/IkmNbpj.png",
@@ -46,7 +55,10 @@
     "title": "ReservEase",
     "description": "This project is a reservation system for spaces that allows users to register, log in, view available spaces, create and manage reservations, and for administrators to manage users, roles, spaces, and view all reservations. It includes JWT-based authentication, an interactive calendar, role management, and visual notifications to improve user experience.",
     "link": "https://github.com/DdEze/ReservEase",
-    "tech": ["React, MongoDB and Material UI"],
+    "tech": ["React", "Node.js", "MongoDB", "Material UI"],
+    "filters": [
+      "React", "MongoDB", "Material UI"
+    ],
     "images": [
       "https://i.imgur.com/ScuVXlJ.png", "https://i.imgur.com/LOuaY54.png",
       "https://i.imgur.com/lUBOZXW.png", "https://i.imgur.com/2nPKbem.png",
@@ -61,7 +73,10 @@
     "title": "iTunes",
     "description": "Mobile application created with React Native that allows searching for songs using the iTunes API, marking them as favorites, and sharing them on social networks.",
     "link": "https://github.com/DdEze/iTunes",
-    "tech": ["React Native, JavaScript and LocalStorage"],
+    "tech": ["React Native", "JavaScript", "LocalStorage"],
+    "filters": [
+      "React Native", "JavaScript"
+    ],
     "images": [
       "https://i.imgur.com/ywDKjwb.png", "https://i.imgur.com/39wa1ew.png",
       "https://i.imgur.com/uaIXpXb.png", "https://i.imgur.com/UdIBZP8.png"
@@ -71,7 +86,10 @@
     "title": "WeatherOn",
     "description": "A simple mobile app to check daily weather forecasts, including maximum and minimum temperatures, humidity, and soon UV index.",
     "link": "https://github.com/DdEze/WeatherON",
-    "tech": ["React Native, TypeScript, OpenWeatherMap API (One Call), Chart.js and LocalStorage"],
+    "tech": ["React Native", "TypeScript", "OpenWeatherMap API (One Call)", "Chart.js", "LocalStorage"],
+    "filters": [
+      "React Native", "TypeScript"
+    ],
     "images": [
       "https://i.imgur.com/eTdhQdi.png", "https://i.imgur.com/5krKued.png",
       "https://i.imgur.com/Aq8r3wp.png", "https://i.imgur.com/nxUgH2G.png",
@@ -82,7 +100,10 @@
     "title": "Confidant",
     "description": "Confidant is an emotional journaling app designed to help you keep a daily record of your emotions, thoughts, and activities. Each entry allows you to identify how you felt that day using an emoji, add a reflective note, and then view everything in an accessible, date-organized history. The app includes a weekly entries chart, making it easy to see how often you've been journaling over time. This helps you recognize emotional patterns or personal habits. The interface is designed to be simple, friendly, and functional, allowing you to write freely and without distractions.",
     "link": "https://github.com/DdEze/Confidant",
-    "tech": ["React Native, TypeScript y LocalStorage"],
+    "tech": ["React Native", "TypeScript", "LocalStorage"],
+    "filters": [
+      "React Native", "TypeScript"
+    ],
     "images": [
       "https://i.imgur.com/nZGV3QN.png", "https://i.imgur.com/Wg66bbF.png",
       "https://i.imgur.com/iTAfU2r.png", "https://i.imgur.com/glfUI69.png",
