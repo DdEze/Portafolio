@@ -10,7 +10,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
   return (
     <header>
       <nav className="navbar">
-        <div className="navbar-logo">De Dominicis Ezequiel</div>
+        <div className="navbar-logo">{"<eze/>"}</div>
 
         <button className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
           ☰
