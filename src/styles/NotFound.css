@@ -1,0 +1,87 @@
+.not-found {
+  min-height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1.5rem;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.not-found-content {
+  width: 100%;
+  max-width: 600px;
+}
+
+.not-found-code {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: clamp(6rem, 18vw, 10rem);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.06em;
+  color: #007b8a;
+}
+
+.not-found h1 {
+  margin: 1.5rem 0 1rem;
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+}
+
+.not-found p {
+  margin: 0 auto 2rem;
+  max-width: 450px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #555;
+}
+
+.not-found-button {
+  display: inline-block;
+  padding: 0.85rem 1.5rem;
+  border-radius: 8px;
+  background-color: #007b8a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.2s ease,
+              transform 0.2s ease;
+}
+
+.not-found-button:hover {
+  background-color: #006e7c;
+  transform: translateY(-2px);
+}
+
+.not-found-button:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 4px;
+}
+
+body.dark .not-found-code {
+  color: #b085f5;
+}
+
+body.dark .not-found p {
+  color: #ddd;
+}
+
+body.dark .not-found-button {
+  background-color: #b085f5;
+  color: #fff;
+}
+
+body.dark .not-found-button:hover {
+  background-color: #8e69e1;
+}
+
+@media (max-width: 480px) {
+  .not-found {
+    min-height: 60vh;
+    padding: 2rem 1rem;
+  }
+
+  .not-found p {
+    font-size: 1rem;
+  }
+}

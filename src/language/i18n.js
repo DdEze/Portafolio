@@ -111,6 +111,10 @@ export const translations = {
     projects_filter_all: "Todos",
     projects_no_results: "No hay proyectos que utilicen esta tecnología.",
     pagination_label: "Paginación de proyectos",
+    not_found_title: "Página no encontrada",
+    not_found_description: "La página que estás buscando no existe o fue movida. Podés volver al inicio y seguir explorando mi portafolio.",
+    not_found_button: "Volver al inicio",
+
   },
   en: {
     nav_home: "Home",
@@ -220,7 +224,11 @@ export const translations = {
     projects_filter_label: "Filter by technology",
     projects_filter_all: "All",
     projects_no_results: "No projects use this technology.",
-    pagination_label: "Project pagination",
+    pagination_label: "Project pagination",    
+    not_found_title: "Page not found",
+    not_found_description: "The page you're looking for doesn't exist or may have been moved. You can return home and continue exploring my portfolio.",
+    not_found_button: "Back to home",
+
 
   },
 };

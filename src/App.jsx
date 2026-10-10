@@ -8,10 +8,11 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import NotFound from "./pages/NotFound";
 
 import { LanguageProvider } from "./language/useLanguage";
 
-import './App.css';
+import "./App.css";
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -25,15 +26,18 @@ function App() {
       <div className="app">
         <LanguageProvider>
           <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
-            <main>
-              <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/contact" element={<Contact />} />
-              </Routes>
-            </main>
-        <Footer darkMode={darkMode} />
+
+          <main>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </main>
+
+          <Footer darkMode={darkMode} />
         </LanguageProvider>
       </div>
     </Router>
